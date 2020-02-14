@@ -34,4 +34,10 @@ return [
         'secret' => env('SPARKPOST_SECRET'),
     ],
 
+    'github' => [
+        'client_id' => env('GIT_CLIENT_ID'),
+        'client_secret' => env('GIT_CLIENT_SECRET'),
+        'redirect' => env('GIT_REDIRECT')
+    ]
+
 ];

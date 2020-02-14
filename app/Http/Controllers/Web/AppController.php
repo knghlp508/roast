@@ -10,7 +10,7 @@ class AppController extends Controller
 
     public function getApp()
     {
-        return('app');
+        return view('app');
     }
 
 }
