@@ -33,6 +33,11 @@ class AuthenticationController extends Controller
         }
     }
 
+    /**
+     * 登录认证回调
+     * @param $account
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
     public function getSocialCallback($account)
     {
         //从第三方 OAuth 回调中获取用户信息
