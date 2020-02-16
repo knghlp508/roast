@@ -32,8 +32,10 @@ if (token) {
 import Vue from 'vue';
 //导入路由
 import router from './routes';
+//导入数据存储器配置
+import store from './store.js'
 
 //将 Vue 挂载到 ID 为 app 的页面元素上
 new Vue({
-    router
+    router, store
 }).$mount('#app');
